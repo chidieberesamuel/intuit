@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: lightgrey;
+  font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#intuit{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.intuit-header{
+  color: rgb(77, 77, 245);
+  font-size: 16px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.intuit-checkbox{
+  color: gray;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.karma,
+.turbotax,
+.quick{
+  display: flex;
+}
+
+.intuit-checkbox img{
+  height: 18px;
+  width: auto;
+}
+
+.turbotax{
+  margin-left: 5px;
+}
+
+.turbotax img,
+.karma img,
+.quick img{
+  margin-right: 5px;
+}
+
+.turbotax h4,
+.karma h4{
+  margin-right: 13px;
+}
+
+.intuit-box-content{
+  height: 540px;
+  width:  380px;
+  border: 1px solid rgb(186, 190, 197);
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background: rgb(243, 239, 239);
+  display: block;
+  margin-left: 370px;
+}
+
+.intuit-box-content-header h2{
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.intuit-box-content-header span{
+  color: rgb(151, 95, 197);
+}
+
+.intuit-box-content-header p{
+  font-size: 15px;
+  color: rgb(102, 99, 99);
+}
+
+.intuit-box-content-header span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.intuit-box-content-input{
+  margin-top: 25px;
+  text-align: left;
+  color: rgb(102, 99, 99);
+
+}
+
+.intuit-box-content-input h3{
+  font-weight: 300;
+  font-size: 15.4px;
+  padding-bottom: 8px;
+}
+
+.intuit-box-content-input .message{
+  width: 350px;
+  height: 30px;
+  padding-left: 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  border: 2px solid blue;
+}
+
+.intuit-box-content-input h6{
+  font-size: 11px;
+  padding-top: 6px;
+  font-weight: 350;
+}
+
+label{
+  display: flex;
+  padding-top: 16px;
+}
+
+label:hover{
+  cursor: pointer;
+}
+
+label h4{
+  font-weight: 320;
+  padding-top: 8px;
+  padding-left: 9px;
+}
+
+input[type=checkbox]:hover{
+  cursor: pointer;
+}
+
+input[type=checkbox]{
+  accent-color: blue;
+  margin: 4px 0 0;
+  line-height: normal;
+  width: 20px;
+  height: 20px;
+}
+
+.intuit-btn{
+  margin-top: 20px;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.btn{
+  background: #0077c5;
+  height: 50px;
+  width: 380px;
+  border: 1px solid rgb(0, 119, 197);
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+}
+
+
+.intuit-btn-img{
+  vertical-align: middle;
+}
+
+.intuit-p{
+  padding-top: 10px;
+  font-size: 14px;
+  color: rgb(102, 99, 99);
+
+}
+
+.intuit-p span{
+  color: blue;
+}
+
+.intuit-p span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.9;
+  color: blue;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+}
+
+.samuel{
+  color: blue;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+
+.samuel:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.9;
+  color: blue;
+}
+
+.blessing{
+  font-size: 14.5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.alice{
+  font-size: 11.5px;
+  background: lightgray;
+  padding: 20px 5px;
+  margin: 0;
+
+}
+
+.alice span{
+  color: blue;
+}
+
+.alice span:hover{
+  text-decoration: underline;
+  opacity: 0.9;
+  cursor: pointer;
+  
+}
